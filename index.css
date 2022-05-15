@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:ital,wght@0,300;1,300&family=Poppins:wght@300&family=Roboto:ital,wght@1,500&family=Source+Sans+Pro:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1493243350443-9e3048ce7288?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1340&q=80');
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.card-container{
+    background-color: rgba(0, 0, 0, 0.6) ;
+    border: 0;
+    border-radius: 15px;
+    height: 500px;
+    width: 300px;
+    min-width: 35px;
+    font-size: 2.5rem;
+    color: white;
+
+   
+}
+.search-container div{
+    /* text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+     */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    margin: 10px;
+}
+.search-input{
+    outline: none;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+}
+.search-button{
+    font-size: 1.3rem;
+    /* background-color: rgba(0, 0, 0, 0.6) ; */
+    /* color: aliceblue; */
+    color: coral;
+    border: none;
+    background: transparent;
+    height: 35px;
+    border-radius: 15px;
+}
+.search-button:hover{
+    transform: scale(1.4);
+    transform: rotate(200deg);
+    transition: 2s ease-in-out;
+}
+.weather-header{
+    font-size: 1.5rem;
+}
+.weather-information{
+
+   text-align: center;
+   margin-top: 5rem;
+  
+
+}
